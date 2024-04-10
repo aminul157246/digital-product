@@ -1,61 +1,3 @@
-// import Link from 'next/link';
-
-// const links = [
-//     {
-//       id: 1,
-//       title: "Home",
-//       url: "/",
-//     },
-//     {
-//       id: 2,
-//       title: "Portfolio",
-//       url: "/portfolio",
-//     },
-//     {
-//       id: 3,
-//       title: "Blog",
-//       url: "/blog",
-//     },
-//     {
-//       id: 4,
-//       title: "About",
-//       url: "/about",
-//     },
-//     {
-//       id: 5,
-//       title: "Contact",
-//       url: "/contact",
-//     },
-//     {
-//       id: 6,
-//       title: "Dashboard",
-//       url: "/dashboard",
-//     },
-//   ];
-
-
-// const Navbar = () => {
-//     return (
-//         <div>
-//             {
-//                 links.map(link => <Link href={link.url} key={link.id}>{link.title}</Link>)
-//             }
-//         </div>
-//     );
-// };
-
-// export default Navbar;
-
-
-
-
-
-
-
-
-
-
-
 
 'use client'
 
@@ -65,7 +7,6 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import Image from 'next/image';
 import Link from 'next/link'
 
 import IconButton from '@mui/material/IconButton';
@@ -78,36 +19,36 @@ import MenuItem from '@mui/material/MenuItem';
 
 const links = [
     {
-      id: 1,
-      title: "Home",
-      url: "/",
+        id: 1,
+        title: "Home",
+        url: "/",
     },
     {
-      id: 2,
-      title: "Portfolio",
-      url: "/portfolio",
+        id: 2,
+        title: "Portfolio",
+        url: "/portfolio",
     },
     {
-      id: 3,
-      title: "Blog",
-      url: "/blog",
+        id: 3,
+        title: "Blog",
+        url: "/blog",
     },
     {
-      id: 4,
-      title: "About",
-      url: "/about",
+        id: 4,
+        title: "About",
+        url: "/about",
     },
     {
-      id: 5,
-      title: "Contact",
-      url: "/contact",
+        id: 5,
+        title: "Contact",
+        url: "/contact",
     },
     {
-      id: 6,
-      title: "Dashboard",
-      url: "/dashboard",
+        id: 6,
+        title: "Dashboard",
+        url: "/dashboard",
     },
-  ];
+];
 
 
 
@@ -129,7 +70,7 @@ function Navbar() {
 
 
     return (
-       
+
 
 
         <AppBar className='bg-white' position="static">
@@ -137,7 +78,7 @@ function Navbar() {
                 <Toolbar disableGutters>
 
                     {/* <Image src={logo} alt='' width={80} height={80} priority></Image> */}
-<Link href={'/'}><h3 className='text-black font-bold'>digital <br /> product</h3></Link>
+                    <Link href={'/'}><h3 className='text-black font-bold'>digital <br /> product</h3></Link>
 
                     {/* for responsive  */}
 
@@ -189,7 +130,7 @@ function Navbar() {
                     </Box>
 
 
-                    
+
 
 
 
