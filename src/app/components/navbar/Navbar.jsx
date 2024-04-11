@@ -13,6 +13,7 @@ import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
 // import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import Theme from '../Theme/DarkModelToggle';
 
 // import logo from '@/assets/logo.png'
 
@@ -130,7 +131,12 @@ function Navbar() {
                     </Box>
 
 
+<Box>
 
+<Theme/>
+
+
+</Box>
 
 
 

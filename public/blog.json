@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "title": "Elegant eBook Reader",
+      "description": "Experience the joy of reading with our sleek eBook reader. With its elegant design and advanced features, you'll never want to put it down."
+    },
+    {
+      "id": 2,
+      "title": "Smartphone Photography Course",
+      "description": "Unlock your smartphone's potential and learn the art of photography with our comprehensive online course. Capture stunning images wherever you go!"
+    },
+    {
+      "id": 3,
+      "title": "Digital Art Masterclass",
+      "description": "Unleash your creativity and learn the secrets of digital art from industry experts. Develop your skills and create breathtaking masterpieces."
+    },
+    {
+      "id": 4,
+      "title": "Fitness Tracking App",
+      "description": "Achieve your fitness goals with our intuitive tracking app. Monitor your workouts, set targets, and stay motivated on your journey to better health."
+    },
+    {
+      "id": 5,
+      "title": "Cooking Essentials Bundle",
+      "description": "Master the art of cooking with our essential bundle. From basic techniques to gourmet recipes, elevate your culinary skills and impress your friends and family."
+    },
+    {
+      "id": 6,
+      "title": "Language Learning Platform",
+      "description": "Embark on a journey of language discovery with our interactive platform. Learn new languages at your own pace and open doors to exciting opportunities around the world."
+    },
+    {
+      "id": 7,
+      "title": "Virtual Reality Adventure Game",
+      "description": "Immerse yourself in a thrilling virtual reality adventure. Explore breathtaking landscapes, solve puzzles, and uncover hidden treasures in a world like no other."
+    },
+    {
+      "id": 8,
+      "title": "Music Production Software",
+      "description": "Unleash your musical talent with our cutting-edge production software. From composition to mixing, create professional-grade tracks and share your music with the world."
+    },
+    {
+      "id": 9,
+      "title": "Personal Finance Tracker",
+      "description": "Take control of your finances with our intuitive tracker. Set budgets, track expenses, and plan for the future with confidence."
+    },
+    {
+      "id": 10,
+      "title": "Mindfulness Meditation App",
+      "description": "Discover inner peace and serenity with our mindfulness meditation app. Cultivate a daily meditation practice and experience the transformative power of mindfulness."
+    }
+  ]
+  

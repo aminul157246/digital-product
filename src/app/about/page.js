@@ -5,7 +5,10 @@ import Botton from "../components/Button/Botton";
 const AboutPage = () => {
   return (
     <div className='m-12 m'>
-      <div className='flex justify-center gap-12 items-center'>
+      <div className='flex justify-center gap-12 items-center' style={{
+        animation: 'bounce 1s infinite ease',
+        animationDirection: 'alternate',
+      }}>
         <Image
           src="https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           width={700}
