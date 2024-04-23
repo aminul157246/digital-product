@@ -2,9 +2,11 @@
 const nextConfig = {
 
     images: {
-        domains: ["images.pexels.com"],
+        domains: ["images.pexels.com", "www.pexels.com"],
       },
+      }
 
-};
+
 
 export default nextConfig;
+
